@@ -1,0 +1,275 @@
+/* Product Section */
+.product-section {
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.product-info {
+  padding: 15px;
+}
+
+.product-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.product-price {
+  font-size: 18px;
+  color: #e74c3c;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.product-rating {
+  font-size: 14px;
+  color: #f39c12;
+  margin-bottom: 10px;
+}
+
+.product-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.product-buttons a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #007bff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  display: block;
+  transition: background-color 0.2s ease;
+}
+
+.product-buttons a:hover {
+  background-color: #0056b3;
+}
+
+/* General Styles */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #0071e3;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar */
+#navbar {
+  background-color: #ffffff;
+  padding: 20px 40px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+#navbar table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#navbar img {
+  height: 40px;
+  vertical-align: middle;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  color: #0071e3;
+}
+
+/* Search Form */
+form {
+  display: flex;
+  align-items: center;
+}
+
+input[type="search"] {
+  padding: 10px;
+  border: 1px solid #d1d1d6;
+  border-radius: 8px;
+  width: 200px;
+  font-size: 16px;
+}
+
+input[type="search"]::placeholder {
+  color: #aaa;
+}
+
+svg {
+  margin-left: 10px;
+  fill: #0071e3;
+  width: 20px;
+  height: 20px;
+}
+
+/* Main Content */
+h1 {
+  text-align: center;
+  font-size: 48px;
+  color: #333;
+  margin: 40px 0;
+}
+
+img, video {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+video {
+  border: 1px solid #d1d1d6;
+}
+
+/* Marquee */
+marquee {
+  display: block;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px 0;
+  font-size: 24px;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Product Section */
+hr {
+  border: 0;
+  border-top: 1px solid #d1d1d6;
+  margin: 40px 0;
+}
+
+table.products {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+
+table.products td {
+  padding: 20px;
+  text-align: center;
+  vertical-align: top;
+}
+
+table.products img {
+  border: 1px solid #d1d1d6;
+  border-radius: 8px;
+}
+
+table.products td {
+  font-size: 18px;
+  color: #333;
+}
+
+table.products td img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* New Launches Section */
+.new-launches {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.new-launches img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.new-launches h4, .new-launches h1 {
+  margin: 20px 0;
+  color: #333;
+  font-weight: 400;
+}
+
+/* Footer */
+footer {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 -1px 4px rgba(0,0,0,0.1);
+}
+
+footer p {
+  font-size: 14px;
+  color: #777;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+table svg {
+  margin: 0;
+}
