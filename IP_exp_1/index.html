@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <section id="navbar" style="background-color: aliceblue;">
@@ -58,24 +59,66 @@
 </table>
 </section>
 <h1 style="text-align: center;">APPLE VISION PRO</h1>
-<img src="/home page.png">
+<img src="./home page.png">
 <video controls autoplay loop muted src="./180917_01_09_720p_5000br.mp4" autoplay="on"></video>
 <hr>
 <h1 style="text-align: center;">Our Products</h1>
 <hr>
 <marquee behavior="scroll" direction="right" scrollamount="5" ><h2>Products on Sale!!</h2></marquee>
-<tr>
-  <td><img height="300" width="250" src="./iPhone-14.jpg" />$80</td>
-  <td><img height="300" width="295" src="./ipad.jpeg" />$60</td>
-  <td><img width="295" src="./mac.png" />$120</td>
-  <td><img height="300" width="250" src="./airpods.jpg" />$30</td>
-</tr>
-<tr>
-<td><img height="300" width="250" src="./iPhone-14.jpg" />$80</td>
-<td><img height="300" width="295" src="./ipad.jpeg" />$60</td>
-<td><img width="295" src="./mac.png" />$120</td>
-<td><img height="300" width="250" src="./airpods.jpg" />$30</td>
-</tr>
+<div class="product-section">
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="./iPhone-14.jpg" alt="Product Image" class="product-image">
+      <div class="product-info">
+        <h3 class="product-title">Product Title</h3>
+        <p class="product-price">$299.99</p>
+        <p class="product-rating">★★★★☆</p>
+        <div class="product-buttons">
+          <a href="#">Buy Now</a>
+          <a href="#">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="./ipad.jpeg" alt="Product Image" class="product-image">
+      <div class="product-info">
+        <h3 class="product-title">Product Title</h3>
+        <p class="product-price">$199.99</p>
+        <p class="product-rating">★★★★☆</p>
+        <div class="product-buttons">
+          <a href="#">Buy Now</a>
+          <a href="#">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="./mac.png" alt="Product Image" class="product-image">
+      <div class="product-info">
+        <h3 class="product-title">Product Title</h3>
+        <p class="product-price">$399.99</p>
+        <p class="product-rating">★★★★☆</p>
+        <div class="product-buttons">
+          <a href="#">Buy Now</a>
+          <a href="#">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+    <div class="product-card">
+      <img src="./airpods.jpg" alt="Product Image" class="product-image">
+      <div class="product-info">
+        <h3 class="product-title">Product Title</h3>
+        <p class="product-price">$99.99</p>
+        <p class="product-rating">★★★★☆</p>
+        <div class="product-buttons">
+          <a href="#">Buy Now</a>
+          <a href="#">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+    <!-- Repeat product-card for additional products -->
+  </div>
+</div>
+
 <hr>
 <h1 style="text-align: center;">NEW LAUNCHES</h1>
 <hr>
